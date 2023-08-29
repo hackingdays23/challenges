@@ -1,0 +1,2 @@
+pass: XYZABBCCQWERTY2023@
+flag: iFlag{fix_and_run}
