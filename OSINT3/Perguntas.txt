@@ -1,0 +1,12 @@
+A iFlag é composta por diversas respostas na ORDEM das perguntas. 
+Formato iFlag{resposta1-resposta2-resposta3...}. Não use acentos, espaços ou pontuações.
+
+1. De qual famoso é o avião?
+2. Qual o serial number do avião?
+3. Quantos assentos ela possui?
+4. Quantos milhões de dólares custa o avião? Coloque apenas os 2 primeiros digitos.
+5. Qual a hora de chegada no destino no dia 09-01-2023? Insira no formato XX:XX
+6. Qual o significado das letras WM? Insira no formato xxxxx-yyyyy
+
+
+iFlag{billgates-6357-22-70-06:37-william-melinda}
