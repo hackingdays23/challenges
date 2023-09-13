@@ -1,1 +1,0 @@
-docker build --no-cache -t web11:11 -f Dockerfile .
