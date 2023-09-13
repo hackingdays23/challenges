@@ -10,4 +10,4 @@ EXPOSE 9000
 
 
 CMD ["gunicorn", "app:app", "--bind", "0.0.0.0:9000", "--workers", "1"]
-RUN python app.py
+RUN python source/app.py
