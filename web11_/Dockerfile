@@ -19,6 +19,6 @@ RUN rm -rf /var/www/html/index.html && chown -R www-data:www-data /var/www/html
 
 COPY source/*.php /var/www/html/
 COPY source/*.html /var/www/html/
-RUN echo "jvvrq8--vukvvgp,amo-`cfhmpcq]lmu" > /var/www/html/flag.txt
+RUN echo "NjggNzQgNzQgNzAgNzMgM2EgMmYgMmYgNzQgNzcgNjkgNzQgNzQgNjUgNzIgMmUgNjMgNmYgNmQgMmYgNjIgNjEgNjQgNmEgNmYgNzIgNjEgNzMgNWYgNmUgNmYgNzc=" > /var/www/html/flag.txt
 
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
