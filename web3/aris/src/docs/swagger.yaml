@@ -1,0 +1,63 @@
+basePath: /api
+definitions:
+  models.UserLogin:
+    properties:
+      email:
+        type: string
+      password:
+        type: string
+    type: object
+  models.UserSignup:
+    properties:
+      email:
+        type: string
+      name:
+        type: string
+      password:
+        type: string
+    type: object
+host: 34.200.32.71:3000
+info:
+  contact: {}
+  title: API Hacking
+  version: "1.0"
+paths:
+  /flag/:
+    get:
+      parameters:
+      - description: Bearer token
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses: {}
+      summary: Flag
+  /user/login:
+    post:
+      parameters:
+      - description: Login form
+        in: body
+        name: models.UserLogin
+        required: true
+        schema:
+          $ref: '#/definitions/models.UserLogin'
+      produces:
+      - application/json
+      responses: {}
+      summary: Login
+  /user/signup:
+    post:
+      parameters:
+      - description: Signup form
+        in: body
+        name: models.UserSignup
+        required: true
+        schema:
+          $ref: '#/definitions/models.UserSignup'
+      produces:
+      - application/json
+      responses: {}
+      summary: Signup
+swagger: "2.0"
