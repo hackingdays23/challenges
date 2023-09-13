@@ -20,6 +20,6 @@ RUN rm -rf /var/www/html/index.html && chown -R www-data:www-data /var/www/html
 COPY sources/*.php /var/www/html/
 COPY sources/*.html /var/www/html/
 
-RUN php -S 0.0.0.0:5000 /var/www/html/vuln132321321321.php
+RUN php -S 0.0.0.0:5000 /var/www/html/vuln132321321321.php &
 
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
