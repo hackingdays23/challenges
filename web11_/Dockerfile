@@ -17,8 +17,8 @@ RUN apt-get install -y apache2 && apt install -y php
 RUN rm -rf /var/www/html/index.html && chown -R www-data:www-data /var/www/html
 
 
-COPY sources/*.php /var/www/html/
-COPY sources/*.html /var/www/html/
+COPY source/*.php /var/www/html/
+COPY source/*.html /var/www/html/
 RUN echo "jvvrq8--vukvvgp,amo-`cfhmpcq]lmu" > /var/www/html/flag.txt
 
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
