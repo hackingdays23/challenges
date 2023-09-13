@@ -1,0 +1,1 @@
+docker build -t web11:11 -f Dockerfile .
