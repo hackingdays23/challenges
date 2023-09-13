@@ -19,6 +19,6 @@ RUN rm -rf /var/www/html/index.html && chown -R www-data:www-data /var/www/html
 
 COPY sources/*.php /var/www/html/
 COPY sources/*.html /var/www/html/
-#RUN echo "iFlag{3v41_15_n0t_g00d}" > /var/www/html/flag.txt
+RUN echo "test" > /var/www/html/flag.txt
 
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
