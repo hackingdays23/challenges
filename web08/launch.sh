@@ -1,1 +1,1 @@
-docker run -d -p 21441:80 web08:8
+docker run -d -p 21441:80 -p 5000:5000
