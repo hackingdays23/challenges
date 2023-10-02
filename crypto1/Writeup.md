@@ -35,7 +35,7 @@ It's very important to look at the text pattern. It means, at the columns we hav
 
 ## Analysing:
 
-We have some available web tools online that can lead us to an easilly recon, such as: https://boxentriq.com/code-breaking/cipher-identifier
+We have some available web tools online that can lead us to an easily recon, such as: https://boxentriq.com/code-breaking/cipher-identifier
 
 In this case we don't have a precise result, however, we can try every sugestion available for the tool.
 
