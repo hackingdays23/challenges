@@ -98,3 +98,9 @@ By acessing `middle.html`:
 ```
 <html> <h1>Meeh, nice try... are you sure that you saw enough?? </h1> <!-- "1ng_p0rts_" --></html>
 ```
+
+Finally, the entire flag is: 
+
+```
+iFlag{fuzz1ng_p0rts_1s_v3ry_c00l}
+```
