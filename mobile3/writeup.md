@@ -15,6 +15,6 @@ Get all this pieces and go to [cyberchef](https://gchq.github.io/CyberChef/) to 
 final encryptedText = 'lpwkJhdDUFkC72Ei901K6SQjs7pCDFcDbgk8Bl6qfa8=';
 ```
 
-![]("img/screenshot.png")
+![](img/screenshot.png)
 
 `iFlag{e4sy_sn4psh0t_d3bUg_n0?!}`
